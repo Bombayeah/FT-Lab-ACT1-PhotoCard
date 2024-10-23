@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #493628;
+}
+.title{
+    width: max-content;
+    margin: 3rem auto;
+}
+.mainContainer{
+width: 500px;
+height: 675px;
+border: 1px solid rgb(255, 255, 255);
+margin: 1rem auto;
+position: relative;
+padding: 5px;
+}
+.backgroundImg{
+    width: 100%;
+    height: 100%;
+    
+}
+.bgPicture{
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+    object-position: 0 -40px;
+        
+}
+.userInfo{
+    width: 100%;
+    height: 525px;
+    background-color: white;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+    position: relative;
+    bottom: 33rem;
+    border-style: outset;
+    
+}
+.userPicture{
+    position: absolute;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 21em;
+    left: 1.5em;
+    z-index: 1;
+    border: 2px solid rgb(73, 204, 102);
+    padding: 0.2em;
+    object-fit: cover;
+    object-position: 0 0;
+}
+.userDetails{
+    position: absolute;
+    bottom: 7em;
+    font-family: sans-serif;
+    left: 1.5em;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+}
+.name{
+    position: absolute;
+    bottom: 6em;
+    font-size: larger;
+    font-weight: bold;
+}
+.occupation{
+position: absolute;
+bottom: 4.5em;
+font-weight: lighter;
+color: #5e5d5c;
+left: 3rem;
+}
+.motto{
+    font-weight: bold;
+    position: relative;
+    bottom: -5rem;
+}
+.quote{
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: lighter;
+    position: relative;
+    bottom: -1rem;
+    left: 1.5rem;
+}
+.contact{
+    position: relative;
+    bottom: -6em;
+    text-align: center;
+    line-height: 2rem;
+}
+#contacts{
+    text-align: left;
+font-weight: bold;
+}
+.contactNo{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem;
+}
+.email{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem;
+    width: 100%;
+    
+}
