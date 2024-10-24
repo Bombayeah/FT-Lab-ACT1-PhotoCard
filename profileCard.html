@@ -11,8 +11,9 @@
         <div class="title">
             <h1>Profile Card</h1>
         </div>
+        
         <div class="mainContainer">
-
+        
             <div class="backgroundImg">
                 <img src="download (11).jpg" alt="Backgorung Image" class="bgPicture">
             </div>
@@ -20,7 +21,9 @@
             <div class="userImg">
                 <img src="Miken.jpg" alt="User Image" width="150px" height="150px" class="userPicture">
             </div>
-
+            <div class="btnStyle">
+                <button id="btn">Click Me</button>
+            </div>
             <div class="userInfo">
                 <div class="userDetails">
                     <span class="name"><p>John Lloyd H. Miken</p></span>
@@ -43,6 +46,27 @@
             </div>
         </div>
     </div>
-   
+    
+    <div class="bait" id="bait">
+        <video width="100%" height="100%" id="video" controls >
+            <source src="Rick Roll (Different link + no ads).mp4" type="video/mp4">
+        </video>
+    </div>
+
+   <script>
+       const btn = document.getElementById("btn");
+       const bait = document.getElementById("bait");
+       const video = document.getElementById("video");
+       btn.addEventListener("click", function(){
+        bait.style.display = "block";
+        video.play();
+       }); 
+       video.addEventListener('ended', ()=>{
+        bait.style.display  = 'none';
+            });
+       
+    
+   </script>
+
 </body>
 </html>
